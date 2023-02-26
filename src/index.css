@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.navmenuscomp{
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  background-color: #162750;
+  letter-spacing: 1px;
+}
+
+
+.homeMainContainer{
+    display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #162750;
+  margin-top: 50px;
+  border-radius: 10px;
+  height: 500px;
+}
+
+.homeMainImageContainer{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeMainHeading{
+    display: flex;
+  flex-flow: column;
+  justify-content: center;
+  font-weight: 200;
+  align-items: center;
+  font-size: 60px;
+  color: white;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.homeMainSecondSection{
+  padding: 100px;
+   display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeMainSecondSectionCards{
+     display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+}
+
+.cardsHeading{
+  font-weight: 500;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+
+.homeMainThirdSection{
+   display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 200px;
+}
+
+.cardsHeadingJ
+{
+  color: aliceblue;
+  font-size: 40px;
+}
+
+.contactUsCard
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+  height: 80px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.contactUsCardEmail{
+  font-size: 16px;
+}
+
+.productPage{
+  display: flex;
+  flex-flow: column;
+  width: 330px;
+  background-color: white;
+  border-radius: 4px;
+  height: 400px;
+  box-shadow: 1px 1px 3px #00000030;
+  margin-top: 30px;
+  border: 1px solid #00000030;
+
+  
+}
+.productPageContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+}
+
+.productPageCardTitle{
+  font-size: 20px;
+  padding: 10px;
+}
+
+.productPageCardDesc{
+  font-size: 16px;
+  padding: 10px;
+
+}
+
+.buttonBuy{
+  background-color: #162750;
+}
